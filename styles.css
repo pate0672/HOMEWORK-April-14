@@ -1,0 +1,84 @@
+.card {
+  /* margin auto will center the element by giving equal margin each side */
+  margin: auto;
+  padding: 15px;
+  width: 350px;
+  border: 1px solid #ddd;
+  /* border radius will curve the borders */
+  border-radius: 10px;
+  box-shadow: 2px 2px #eee;
+  background: #cc9999;
+  /* this are the fonts imported from Google Fonts */
+  font-family: "Roboto Condensed", sans-serif;
+  color: #362d26;
+  background-image: url("https://images.unsplash.com/photo-1589439804602-a9c1103f5e40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+}
+
+h3 {
+  margin: 0 0 15px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.image {
+  margin: 15px auto;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  font-size: 0.8em;
+}
+
+#description {
+  font-style: italic;
+}
+
+#list-items {
+  list-style: none;
+  padding-left: 0;
+}
+
+#list-items span {
+  font-weight: bold;
+}
+
+.indent {
+  padding-left: 10%;
+}
+.info {
+  font-size: 1.3rem;
+  background-color: rgba(17, 17, 17, 0.7);
+  color: white;
+}
+body {
+  background-color: rgb(75, 92, 92);
+}
